@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header, footer, section, nav, article {
+	display: block;
+}
+
+body {
+	margin: 0 auto;
+	padding: 22px 0;
+	width: 1100px;
+	font: 12px/18px Arial,Verdana,Helvetica,sans-serif;
+	background: #FFFFFF;
+
+}
+
+.text {
+	font-family: Arial,Verdana,Helvetica,sans-serif;
+	font-size: 12px;
+	color: #252525;
+	width: 535px;
+	padding: 20px 0;
+}
+
+
+h2 {
+	font-family: Arial,Verdana,Helvetica,sans-serif;
+	font-size: 18px;
+	line-height: 34px;
+	color: #006ab8;
+
+}
+
+h3 {
+	font-family: Arial,Verdana,Helvetica,sans-serif;
+	font-size: 16px;
+	color: #0076d9;
+
+}
+
+
+h3 a {
+	color: #0076d9;
+}
+	
+h3 a:hover {
+	color: #0076d9;
+	text-decoration: none;
+}
+
+
+nav {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	background: #4c9ad5;
+}
+
+nav ul {
+	margin: 0 auto;
+	width: 1100px;
+	list-style: none;
+}
+
+nav ul li {
+	float: left;
+}
+		
+nav ul li a {
+	display: block;
+	margin-right: 40px;
+	font-family: Arial,Verdana,Helvetica,sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 44px;
+	text-align: center;
+	text-decoration: none;
+	color: #FFF;
+}
+			
+nav ul li a:hover {
+	color: #fff;
+    text-decoration: underline;
+}
+			
+
+footer {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	background: #4c9ad5;
+}
+
+footer div {
+	display: table;
+	margin: 0 auto;
+	padding: 44px 0;
+	width: 940px;
+	color: #FFF;
+}
+	
+footer div section {
+	display: table-cell;
+	width: 300px;
+}
+		
+footer h3 {
+	color: #FFF;
+}
+	
+footer a {
+	color: #FFF;
+}
+	
+footer a:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+	
+
+#headcontainer { 
+overflow:hidden;
+}
+
+#logo { 
+float:left; 
+width:50%; 
+}
+
+#information {
+float:right; 
+text-align: right;
+width:50%; 
+margin-bottom:20px;
+clear:right;
+}
